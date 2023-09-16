@@ -1,0 +1,11 @@
+{
+  "name": "srchat",
+  "version": "1.0.0",
+  "description": "A free and open source chat app",
+  "main": "index.js",
+  "scripts": {
+    "meili": "docker-compose up meilisearch"
+  },
+  "author": "danny-avila",
+  "license": "MIT"
+}
