@@ -1,0 +1,15 @@
+version: "3.4"
+
+services:
+  meilisearch:
+    container_name: chat-meilisearch
+    image: getmeili/meilisearch:v1.0
+    restart: always
+    env_file:
+      - .env
+    environment:
+      - MEILI_HOST=http://meilisearch:7700
+      - MEILI_HTTP_ADDR=meilisearch:7700
+      - MEILI_NO_ANALYTICS=true
+    volumes:
+      - ./meili_data:/meili_data
