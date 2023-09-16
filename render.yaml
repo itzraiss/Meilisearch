@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: meilisearch
+    env: docker
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    port: 7700
