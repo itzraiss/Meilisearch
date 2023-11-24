@@ -1,1 +1,1 @@
-Just a way to use SEARCH in LibreChat 😁
+##Just a way to use SEARCH in LibreChat 😁
