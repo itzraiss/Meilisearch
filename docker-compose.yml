@@ -3,7 +3,7 @@ version: "3.4"
 services:
   meilisearch:
     container_name: chat-meilisearch
-    image: getmeili/meilisearch:v1.6.1
+    image: getmeili/meilisearch:v1.6
     restart: always
     env_file:
       - .env
@@ -14,4 +14,4 @@ services:
       - MEILI_NO_ANALYTICS=true
       - MEILI_ENV production
     volumes:
-      - ./meili_data_v1.6.1:/meili_data
+      - ./meili_data_v1.6:/meili_data
