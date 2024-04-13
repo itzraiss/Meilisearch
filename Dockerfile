@@ -15,3 +15,4 @@ RUN chmod -R 777 /meili_data
 VOLUME ["/meili_data"]
 
 # The base image already defines an ENTRYPOINT that runs MeiliSearch
+#Credits to @fuegovic
